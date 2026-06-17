@@ -1,0 +1,125 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables (NEVER commit)
+.env
+.env.local
+.env.*.local
+
+# Sensitive Data
+*.key
+*.pem
+*.p8
+credentials.json
+secrets.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+vectordb/
+
+# Logs & Outputs
+*.log
+logs/
+*.tmp
+copilot_queries.log
+hallucination_audit_results.json
+hallucination_audit.csv
+cost_tracker.log
+
+# Test & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Temporary Files
+*.bak
+*.swp
+*.swo
+*~
+.tmp/
+temp/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Node (if using npm packages)
+node_modules/
+package-lock.json
+
+# API Keys & Credentials (extra safe)
+api_keys.txt
+tokens.txt
+.aws/
+.ssh/
+
+# IDE Specific
+.vscode/settings.json
+.idea/*
+!.idea/runConfigurations
+
+# Distribution
+dist/
+build/
+
+# Misc
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Keep essential project files
+!.env.example
+!.gitignore
+!*.md
+!requirements.txt

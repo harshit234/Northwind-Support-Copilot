@@ -1,0 +1,43 @@
+# Northwind Support Copilot - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# LLM via Groq (replaces OpenAI for generation)
+groq>=0.9.0                      # Groq API client (LLaMA3, Mixtral, Gemma models)
+
+# Embeddings (local, no API key needed - Groq does NOT support embeddings)
+sentence-transformers>=2.6.0      # Local embedding model (all-MiniLM-L6-v2)
+
+# Vector Database & RAG
+chromadb>=0.4.0                   # Vector store for embeddings
+
+# Data Validation & Types
+pydantic>=2.0.0                   # Type-safe data contracts
+pydantic-settings>=2.0.0          # Environment variable management
+
+# Utilities
+python-dotenv>=1.0.0              # Load .env files
+requests>=2.31.0                  # HTTP client
+
+# PDF/Document Processing (Phase 2+)
+# pypdf>=3.0.0                    # PDF reading
+# python-docx>=0.8.11             # DOCX reading
+# markdown>=3.4.0                 # Markdown parsing
+
+# Testing & Evaluation (Phase 2+)
+# pytest>=7.0.0                   # Unit tests
+# pytest-asyncio>=0.21.0          # Async tests
+# ragas>=0.0.1                    # RAG evaluation framework
+
+# Logging & Monitoring (Phase 2+)
+# python-json-logger>=2.0.0       # JSON logging
+# prometheus-client>=0.18.0       # Prometheus metrics
+
+# API & Web Server (Phase 2+)
+# fastapi>=0.100.0                # REST API framework
+# uvicorn>=0.23.0                 # ASGI server
+
+# Development
+# ipython>=8.0.0                  # Interactive shell
+# black>=23.0.0                   # Code formatter
+# flake8>=6.0.0                   # Linter
+# mypy>=1.0.0                     # Type checker

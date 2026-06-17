@@ -1,0 +1,181 @@
+{
+  "timestamp": "2026-06-17T10:49:23.458109",
+  "metrics": {
+    "total_questions": 10,
+    "total_hits": 10,
+    "hit_rate_percent": 100.0,
+    "avg_top_score": 0.495
+  },
+  "results": [
+    {
+      "question_id": 1,
+      "question": "What's our SLA for Enterprise customers?",
+      "correct_source": "Enterprise_SLA.pdf",
+      "retrieved_sources": [
+        "Enterprise_SLA.pdf",
+        "pricing.pdf",
+        "enterprise_onboarding.pdf"
+      ],
+      "retrieved_scores": [
+        0.5464854836463928,
+        0.42091047763824463,
+        0.4050924777984619
+      ],
+      "hit": true,
+      "top_score": 0.5464854836463928
+    },
+    {
+      "question_id": 2,
+      "question": "How much does the Professional plan cost?",
+      "correct_source": "pricing.pdf",
+      "retrieved_sources": [
+        "pricing.pdf",
+        "billing_faq.pdf",
+        "enterprise_onboarding.pdf"
+      ],
+      "retrieved_scores": [
+        0.5290617942810059,
+        0.3791206479072571,
+        0.2799091339111328
+      ],
+      "hit": true,
+      "top_score": 0.5290617942810059
+    },
+    {
+      "question_id": 3,
+      "question": "Can I get my money back if I change my mind?",
+      "correct_source": "refund_policy.pdf",
+      "retrieved_sources": [
+        "refund_policy.pdf",
+        "billing_faq.pdf",
+        "password_reset.pdf"
+      ],
+      "retrieved_scores": [
+        0.3926411271095276,
+        0.2946590185165405,
+        0.209486722946167
+      ],
+      "hit": true,
+      "top_score": 0.3926411271095276
+    },
+    {
+      "question_id": 4,
+      "question": "How do I reset my password?",
+      "correct_source": "password_reset.pdf",
+      "retrieved_sources": [
+        "password_reset.pdf",
+        "billing_faq.pdf",
+        "refund_policy.pdf"
+      ],
+      "retrieved_scores": [
+        0.6576656699180603,
+        0.14557695388793945,
+        0.0998450517654419
+      ],
+      "hit": true,
+      "top_score": 0.6576656699180603
+    },
+    {
+      "question_id": 5,
+      "question": "Can we integrate with Slack?",
+      "correct_source": "integrations.pdf",
+      "retrieved_sources": [
+        "integrations.pdf",
+        "enterprise_onboarding.pdf",
+        "pricing.pdf"
+      ],
+      "retrieved_scores": [
+        0.5714483857154846,
+        0.2003733515739441,
+        0.16027748584747314
+      ],
+      "hit": true,
+      "top_score": 0.5714483857154846
+    },
+    {
+      "question_id": 6,
+      "question": "What's new in version 2.3?",
+      "correct_source": "changelog_v2.3.pdf",
+      "retrieved_sources": [
+        "changelog_v2.3.pdf",
+        "integrations.pdf",
+        "Enterprise_SLA.pdf"
+      ],
+      "retrieved_scores": [
+        0.5722305774688721,
+        0.2620338201522827,
+        0.16708409786224365
+      ],
+      "hit": true,
+      "top_score": 0.5722305774688721
+    },
+    {
+      "question_id": 7,
+      "question": "How long does Enterprise onboarding take?",
+      "correct_source": "enterprise_onboarding.pdf",
+      "retrieved_sources": [
+        "enterprise_onboarding.pdf",
+        "Enterprise_SLA.pdf",
+        "pricing.pdf"
+      ],
+      "retrieved_scores": [
+        0.6549424529075623,
+        0.34155452251434326,
+        0.21585577726364136
+      ],
+      "hit": true,
+      "top_score": 0.6549424529075623
+    },
+    {
+      "question_id": 8,
+      "question": "How do I get an invoice?",
+      "correct_source": "billing_faq.pdf",
+      "retrieved_sources": [
+        "billing_faq.pdf",
+        "Enterprise_SLA.pdf",
+        "pricing.pdf"
+      ],
+      "retrieved_scores": [
+        0.2954920530319214,
+        0.145058274269104,
+        0.14368712902069092
+      ],
+      "hit": true,
+      "top_score": 0.2954920530319214
+    },
+    {
+      "question_id": 9,
+      "question": "Is there a free trial?",
+      "correct_source": "pricing.pdf",
+      "retrieved_sources": [
+        "pricing.pdf",
+        "password_reset.pdf",
+        "billing_faq.pdf"
+      ],
+      "retrieved_scores": [
+        0.254632830619812,
+        0.1853388547897339,
+        0.17484652996063232
+      ],
+      "hit": true,
+      "top_score": 0.254632830619812
+    },
+    {
+      "question_id": 10,
+      "question": "What's the first response time for P2 issues?",
+      "correct_source": "Enterprise_SLA.pdf",
+      "retrieved_sources": [
+        "Enterprise_SLA.pdf",
+        "changelog_v2.3.pdf",
+        "enterprise_onboarding.pdf"
+      ],
+      "retrieved_scores": [
+        0.4742736220359802,
+        0.20622432231903076,
+        0.1891135573387146
+      ],
+      "hit": true,
+      "top_score": 0.4742736220359802
+    }
+  ]
+}
