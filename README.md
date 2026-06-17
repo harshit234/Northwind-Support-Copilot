@@ -3,11 +3,7 @@
 
 A measurably trustworthy RAG-based AI copilot that helps Northwind support agents answer product and policy questions instantly — with citations, no hallucinations, and human-in-the-loop safety.
 
----
 
-## 🎬 Visual Demo
-
-▶️ **[Watch the Demo on Google Drive](https://drive.google.com/file/d/114Y7hjLkWfBB1hdEeH99YfqoAT5UdIbX/view?usp=sharing)**
 
 ---
 
